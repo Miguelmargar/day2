@@ -1,0 +1,22 @@
+div {
+    margin: auto
+}
+
+.column {
+    background-color: lightgray;
+    display: block;
+    font-size: 25px;
+    height: 25px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+}
+
+@media screen and (min-width: 992px) {
+    .column {
+        display: inline-block;
+        margin: 10px;
+        width: 30%;
+    }
+}
+

@@ -1,0 +1,42 @@
+body {
+    background-color: #DCDCDC;
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    background-color: lightgray;
+    color: gray;
+    display: block;
+    font-family: "Oswald", sans-serif;
+    font-size: 25px;
+    margin-bottom: 15px;
+    margin-right: 25px;
+    text-align: center;
+    text-decoration: none;
+    padding: 5px 5px;
+}
+
+a:hover {
+    background-color: white;
+    color: black;
+}
+
+@media (min-width: 768px) {
+    nav {
+        font-size: 0;
+    }
+    
+    nav ul {
+        background-color: #DCDCDC;
+    }
+    
+    nav ul li {
+        display: inline-block;
+        margin-top: 10px;
+        font-size: 20px;
+        width: 145px;
+    }
+}
