@@ -28,12 +28,12 @@
 }
 
 @keyframes movingsquare {
-    0% { top: 10%;}
+    0% { top: 10%; transform: rotate(180deg)}
     50% { top: 70%;}
     100%{ top: 10%;}
 }
 
-.square2 {
+.rectangle {
     background: linear-gradient(to left, red, orange);
     border: 2px solid black;
     height: 75px;
