@@ -1,0 +1,59 @@
+body {
+    /*background: linear-gradient(20deg, blue, yellow, white);*/
+    background: radial-gradient(yellow, white);
+    height: 100vh;
+}
+
+
+div {
+    display: inline-block;
+}
+
+
+.box {
+    background-color: red;
+    border: 2px solid blue;
+    height: 100px;
+    width: 100px;
+    border-radius: 20px;
+    margin:20px;
+    text-align: center;
+    font-size: 25px;
+    transition: all 2s ease-in-out 1s;
+}
+
+.rotate:hover {
+    transform: rotate(50deg);
+}
+
+.skew:hover {
+    transform: skew(5deg, 20deg);
+}
+
+.scale:hover {
+    transform: scale(2, 1);
+    margin-left: 75px;
+}
+
+.multi:hover {
+    transform: rotate(50deg) skew(20deg, 10deg);
+    margin-top: 35px;
+}
+
+.threed:hover {
+    transform: perspective(90px) rotateX(30deg);
+    margin-top: 40px;
+}
+
+.blue:hover {
+    transform: perspective(90px) rotateY(20deg);
+}
+
+.yellow:hover {
+    background-color: yellow;
+    color: red;
+}
+
+p {
+    padding-top: 10px;
+}

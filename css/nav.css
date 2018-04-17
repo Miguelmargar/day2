@@ -17,6 +17,8 @@ nav ul li a {
     text-align: center;
     text-decoration: none;
     padding: 5px 5px;
+    transition-property: background-color;
+    transition-duration: 2s;
 }
 
 a:hover {
