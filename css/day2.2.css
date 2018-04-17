@@ -19,7 +19,7 @@ div {
     margin:20px;
     text-align: center;
     font-size: 25px;
-    transition: all 2s ease-in-out 1s;
+    transition: all 0.5s ease-in-out 1s;
 }
 
 .rotate:hover {
